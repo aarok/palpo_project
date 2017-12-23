@@ -7,13 +7,10 @@ Project work for course palvelupohjaiset järjestelmät
 [Install node.js](https://nodejs.org/en/download/)
 
 ### Install dependencies 
-```
-npm init
-```
+1. Clone project from github
+2. Run ```npm init``` on commandline
 
 ### Run server with hot reloading
-```
-npm start
-```
-
-Go to localhost:3000 
+1. ```npm start```
+2. Go to localhost:3000 
+3. Play around in ```src/App.ts``` 
