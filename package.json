@@ -1,0 +1,32 @@
+{
+  "name": "palpo_project",
+  "version": "1.0.0",
+  "description": "project work for palpo course",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarok/palpo_project.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "Aaro Korhonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarok/palpo_project/issues"
+  },
+  "homepage": "https://github.com/aarok/palpo_project#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "nodemon": "^1.14.3",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
